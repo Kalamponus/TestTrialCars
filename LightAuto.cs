@@ -14,8 +14,8 @@ namespace TestTrial
         {
             this.passengerCount = passengerCount;
         }
-
-        public override double TravelDistanceLeft(double fuelLeft)
+        
+        public override double TravelDistanceLeft(double fuelLeft) //Решил не разделять на полный и неполный бак, поэтому вводится просто топливо
         {
             return fuelLeft / (avgFuelConsumption / 100); 
         }

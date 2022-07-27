@@ -13,7 +13,7 @@ namespace TestTrial
         {
             LightAuto lightAuto = new LightAuto(5, 60, 110, 4);
             Console.WriteLine("Сколько может проехать легковой автомобиль с {0}л топлива: {1}", 40, lightAuto.TravelDistanceLeft(40));
-            lightAuto.DisplayTimeToTravelDistance(40, 300); //Не зналю, какая скорость имеется ввиду, поэтому вводил максимальную
+            lightAuto.DisplayTimeToTravelDistance(40, 300); //Не знал, какая скорость имеется ввиду, поэтому вводил максимальную
             lightAuto.DisplayPowerReserveInfo();
 
             Truck truck = new Truck(20, 400, 100, 600, 1000);
